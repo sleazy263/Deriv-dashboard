@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deriv Dashboard Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Deriv Dashboard (Clone)</h1>
+        <div class="account" id="synthetic">
+            <h2>Synthetic Account</h2>
+            <p>Balance: $<span class="balance" data-id="synthetic">10000.00</span></p>
+        </div>
+        <div class="account" id="financial">
+            <h2>Financial Account</h2>
+            <p>Balance: $<span class="balance" data-id="financial">5000.00</span></p>
+        </div>
+        <div class="account" id="demo">
+            <h2>Demo Account</h2>
+            <p>Balance: $<span class="balance" data-id="demo">100000.00</span></p>
+        </div>
+    </div>
+
+    <div class="admin-panel" id="adminPanel">
+        <h3>Admin Panel</h3>
+        <label for="syntheticInput">Synthetic Balance:</label>
+        <input type="number" id="syntheticInput"><br>
+        <label for="financialInput">Financial Balance:</label>
+        <input type="number" id="financialInput"><br>
+        <label for="demoInput">Demo Balance:</label>
+        <input type="number" id="demoInput"><br>
+        <button onclick="updateBalances()">Update Balances</button>
+        <button onclick="closeAdminPanel()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

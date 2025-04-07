@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.dashboard {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.account {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.admin-panel {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    z-index: 1000;
+}
